@@ -1,0 +1,571 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+  
+  }
+  
+  header {
+    
+    width: 100%;
+    padding: 10px;
+  }
+  
+  /* ===== TOP HEADER STYLING ===== */
+  .top-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .header-icon .logo {
+    width: 60px;
+    margin-left: 20px;
+  }
+  
+  /* Rounded Boxes (Motors & Property) */
+  
+  .rounded-box {
+      
+      height: 40px;
+      width: 40px;
+      background: linear-gradient(lightgray, white);
+      border-radius: 50%;
+      margin-left: 20px;
+      margin-right: 50px;
+      display: flex;
+      align-items: center; 
+  
+  }
+  
+  .rounded-box i {
+      
+      font-size: 20px;
+      margin-left: 10px;
+      
+      
+  }
+  
+  .rounded-box p{
+      
+      margin-left: 25px;
+      font-weight: bold;
+      font-size: 16px;
+      
+  }
+  
+  .rounded-box:hover, .rounded-box p:hover{
+  
+      color: rgb(42, 154, 247);
+  }
+  
+  
+  /* ===== BOTTOM HEADER STYLING ===== */
+  .bottom-header {
+    display:flex ;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+    
+  }
+  
+  .location-with-dropdown{
+  
+  width: 120px;
+  height: 30px;
+  border: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  
+  
+  
+  }
+  
+  .location-with-dropdown p{
+  
+  margin-left: 5px;
+  margin-right: 5px;
+  }
+  
+  
+  header .search{
+     
+  
+     width: 800px;
+     height: 30px;
+     border: 1px solid lightgray;
+     display: flex;
+     align-items: center;
+     border-radius: 5px;
+     margin-left: 10px;
+     margin-top: 10px;
+     
+    
+     
+  }
+   
+  .search input {
+    
+     width: 100%;
+     height: 100%;
+     border: none;
+     outline: none;
+     font-size: 12px;
+     margin-left: 5px;
+    
+  }
+  
+  .search i{
+  
+     width: 30px;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: rgb(249, 246, 246);
+     
+  }
+  
+  .login{
+  
+      margin-left: 40px;
+   
+  
+  }
+  
+  .login a{
+  
+     color: black;
+     font-size: 14px;
+     text-decoration: none;
+  }
+  
+  .login a:hover{
+  
+     border-bottom: 2px solid black;
+  }
+
+  .login, .multicolor-box{
+
+    margin-top: 10px;
+  }
+  
+  .multicolor-box {
+    
+      display: flex;
+      align-items: center;
+      margin-left: 50px;
+   
+  }
+   
+   .multicolor-box img {
+     
+     width: 80px;
+     height: 30px;
+    
+  }
+   
+   .sell-content {
+     
+     display: flex;
+     position: absolute;
+     margin-left: 20px;
+     font-size: 14px;
+     
+  }
+  
+  hr{
+  
+      width: 100%;
+      border: 1px solid lightgray;
+      margin-top: 20px;
+  
+  }
+
+.categories{
+
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.categories p{
+
+    font-size: 0.8rem;
+}
+
+.categories i{
+
+    margin-left: 10px;
+}
+
+.categories div, .categories-text{
+
+    color: #002f34;
+}
+
+.categories-text{
+
+    display: flex;
+    margin-left: 10px;
+    gap: 20px;
+}
+
+.categories-text div:hover{
+
+    color: rgb(42, 154, 247);
+}
+
+
+
+.ad{
+
+    width: 100%;
+    margin: 20px auto;
+}
+
+.ad img{
+
+    width: 100%;
+    object-fit: cover;
+}
+
+.ielt{
+
+   width: 100%;
+   margin: 20px auto;
+}
+
+.ielt img{
+
+  width: 100%;
+  object-fit: cover;
+}
+.all-categories{
+
+
+    margin-top: 20px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 30px;
+    padding: 20px; 
+  }
+
+.circle-box {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+} 
+
+.circle-box img{
+
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.circle-box span{
+
+    margin-top: 10px;
+}
+  
+.mobile-section, .bikes-section{
+
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-section div, .bikes-section div{
+
+    display: flex;
+}
+
+.mobile-section div i, .bikes-section div i{
+
+    margin-left: 10px;
+}
+
+
+.mobile-section div i, .mobile-section div p, .bikes-section div i, .bikes-section div p{
+
+    color: rgb(42, 154, 247);
+    font-size: 14px;
+}
+
+
+.card-container{
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card{
+
+    width: 280px;
+    height: 340px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+  
+.card img{
+
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-content{
+
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-content1{
+
+    color: gray;
+    font-size: 10px;
+
+}
+
+.card-content1 p{
+
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.content{
+
+    margin-left: 10px;
+    font-size: 12px;
+}
+ 
+.bikes-section{
+
+    margin-top: 10px;
+}
+
+.bikes-section h2{
+
+    margin-left: 10px;
+}
+
+small{
+
+    margin-left: 10px;
+}
+
+.footer{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+
+   
+}
+
+.footer img{
+
+    width: 100%;
+    height: auto;
+}
+
+.content2 p{
+
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.content2 h4{
+
+    color: #002f34;
+}
+
+.separator{
+
+   border-left: 1px solid gray;
+   height: 100px;
+   
+}
+
+.content3 {
+
+    font-size: 6px;
+}
+
+.Images{
+
+    display: flex;
+    gap: 10px;
+}
+
+
+.Images img{
+
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.footer2 {
+    
+    background-color: lightgray;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .list-group {
+    
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer2 p {
+    
+    margin-top: 0;
+    font-size: 14px;
+    
+  }
+
+  
+  
+  .footer2 li {
+   
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+.icons{
+
+    margin-top: 10px;
+}
+
+.footer3{
+
+    background-color: #002f34;
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.footer3 p{
+
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+ 
+    /* ----------- Mobile Phones (0 - 480px) ----------- */
+@media (max-width: 768px) {
+
+    .categories{
+      display: none;
+    }
+    
+ 
+    .bottom-header, .categories-text, .footer2 {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .rounded-box p {
+      font-size: 12px;
+      margin-left: 15px;
+    }
+  
+    .location-with-dropdown,
+    .search {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .search input {
+      font-size: 10px;
+    }
+  
+    .card {
+      width: 100%;
+    }
+  
+    .box {
+      gap: 15px;
+      justify-content: center;
+    }
+  
+    .circle-box img {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .Images img {
+      width: 40px;
+      height: 25px;
+    }
+  
+    .footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer3 p {
+      font-size: 10px;
+    }
+
+    .separator{
+      display: none;
+    }
+  
+  }
+  
+  /* ----------- Desktops (769px and above) ----------- */
+  @media (min-width: 769px) {
+  
+    .card-container {
+      justify-content: space-between;
+    }
+  
+    .card {
+      width: 22%;
+    }
+  
+    .circle-box img {
+      width: 90px;
+      height: 90px;
+    }
+  
+  }
+    
+
+
+
+
+
