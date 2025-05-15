@@ -72,7 +72,44 @@
     padding: 0px 20px;
     
   }
-  
+  .search {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  height: 35px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-left: 0;
+  margin-top: 10px;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.search input {
+  flex-grow: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.search i {
+  width: 35px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(249, 246, 246);
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+
   .location-with-dropdown{
   
   width: 120px;
@@ -119,7 +156,7 @@
      border: none;
      outline: none;
      font-size: 12px;
-     margin-left: 5px;
+     margin-left: 0px;
     
   }
   
@@ -144,7 +181,7 @@
   .login a{
   
      color: black;
-     font-size: 14px;
+     font-size: 18px;
      text-decoration: none;
   }
   
@@ -482,17 +519,43 @@ small{
     text-align: center;
     font-size: 12px;
 }
-
  
-    /* ----------- Mobile Phones (0 - 480px) ----------- */
+    /* ----------- Mobile Phones (0 - 768px) ----------- */
 @media (max-width: 768px) {
 
     .categories{
       display: none;
     }
-    
+  .bottom-header {
+    padding: 0 10px;
+  }
+
+  header .search {
+    width: 100%;
+    margin-left: 0;
+  }
+
+   .search input {
+    width: 100%;
+    margin-left: 0;
+    flex-grow: 1;
+  }
+
  
-    .bottom-header, .categories-text, .footer2 {
+   .search i {
+    display: none;
+  }
+  
+   .multicolor-box {
+    display: none;
+  }
+  
+   .login{display: none;}
+
+   .bottom-header {
+    padding: 0 10px; /* reduce padding on small screens */
+  }
+    .bottom-header,.search, .categories-text, .footer2 {
       flex-direction: column;
       align-items: flex-start;
     }
@@ -508,9 +571,6 @@ small{
       margin-bottom: 10px;
     }
   
-    .search input {
-      font-size: 10px;
-    }
   
     .card {
       width: 100%;
